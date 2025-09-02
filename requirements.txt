@@ -1,0 +1,7 @@
+apache-airflow==2.9.1
+apache-airflow-providers-http
+apache-airflow-providers-amazon
+boto3
+python-dotenv
+pandas
+pendulum

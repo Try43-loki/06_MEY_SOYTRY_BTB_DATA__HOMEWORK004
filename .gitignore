@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Airflow logs
+logs/
+*/logs/
+config/airflow.cfg
+
+
+# Environment & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Docker
+*.pid
+*.sock
+*.tar
+*.log
+.docker/
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
