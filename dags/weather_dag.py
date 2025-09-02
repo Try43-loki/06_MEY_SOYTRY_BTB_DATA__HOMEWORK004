@@ -88,7 +88,7 @@ default_args = {
 
 with DAG('weather_dag',
         default_args=default_args,
-        schedule_interval='0 10 * * *', 
+        schedule_interval='@daily',
         catchup=False) as dag:
 
         is_weather_api_ready = HttpSensor(
